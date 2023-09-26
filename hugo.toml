@@ -1,0 +1,39 @@
+baseURL = "https://forrobretzil.com/"
+languageCode = "fr-fr"
+defaultContentLanguage = "fr"
+title = "Forró Bretzil"
+theme = "hugo-universal-theme"
+
+googleAnalytics = "G-L44Q095992"
+
+[params]
+    author = "Forró Bretzil"
+    defaultKeywords = ["forró", "forro", "alsace", "strasbourg", "danse", "dance"]
+    mainSections = ["événements"]
+
+# Main menu
+[[menu.main]]
+    name       = "Accueil"
+    identifier = "menu.home"
+    url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Événements"
+    url        = "/événements"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Photos"
+    url        = "/photos"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Vidéos"
+    url        = "/vidéos"
+    weight     = 1
+
+[params.events]
+    enable = true
+    title = "Nos événements"
+    subtitle = ""
