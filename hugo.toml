@@ -9,7 +9,7 @@ googleAnalytics = "G-L44Q095992"
 [params]
     author = "Forró Bretzil"
     defaultKeywords = ["forró", "forro", "alsace", "strasbourg", "danse", "dance"]
-    mainSections = ["événements"]
+    mainSections = ["evenements"]
 
 # Main menu
 [[menu.main]]
@@ -20,20 +20,16 @@ googleAnalytics = "G-L44Q095992"
 
 [[menu.main]]
     name       = "Événements"
-    url        = "/événements"
-    weight     = 1
+    url        = "/evenements"
+    weight     = 2
 
 [[menu.main]]
     name       = "Photos"
     url        = "/photos"
-    weight     = 1
+    weight     = 3
 
 [[menu.main]]
     name       = "Vidéos"
     url        = "/vidéos"
-    weight     = 1
+    weight     = 4
 
-[params.events]
-    enable = true
-    title = "Nos événements"
-    subtitle = ""
