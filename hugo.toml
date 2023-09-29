@@ -8,7 +8,7 @@ googleAnalytics = "G-L44Q095992"
 
 [params]
     author = "Forró Bretzil"
-    defaultKeywords = ["forró", "forro", "alsace", "strasbourg", "danse", "dance"]
+    defaultKeywords = ["forró", "forro", "alsace", "strasbourg", "musique", "music", "danse", "dance"]
     mainSections = ["evenements"]
 
 # Main menu
