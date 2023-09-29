@@ -2,9 +2,6 @@
 title: Forró Bretzil - musique et danse brésilienne à Strasbourg
 ---
 
-# Forró Bretzil
-
-
 Forró Bretzil est un groupe de musique brésilienne jouant le style musical Forró. Opèrant principalement dans le Nord-Est de la France.
 
 ## Le Forró
