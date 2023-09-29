@@ -1,7 +1,44 @@
-<html>
-<body>
-<li>
-	Hello DBGTHE
-</li>
-</body>
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+	<head>
+		{{ partial "headers.html" . }}
+		{{ partial "custom_headers.html" . }}
+	</head>
+
+	<body>
+		<div id="all">
+			{{ partial "top.html" . }}
+
+			{{ partial "nav.html" . }}
+
+			{{ partial "breadcrumbs.html" . }}
+
+			<div id="content">
+			{{ if isset .Params "id" }}
+
+				{{ partial .Params.id . }}
+
+			{{ else }}
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div>
+								<h3>{{ .Title }}</h3>
+								<div><b>Date :</b> {{ .Date | time.Format "02/01/2006"}}</div>
+								<div><b>Lieu :</b> {{ .Params.Place }}, {{ .Params.City }}</div>
+								<div><a href="{{ .Params.Facebook_event }}">Facebook event</a></div>
+								<div>
+									{{ .Content }}
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /.container -->
+			{{ end }}
+			</div>
+		</div>
+	</body>
 </html>
