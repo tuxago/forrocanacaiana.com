@@ -1,8 +1,8 @@
 ---
-title: Forró Bretzil - musique et danse brésilienne à Strasbourg
+title: Forró Cana Caiana - musique et danse brésilienne à Strasbourg
 ---
 
-Forró Bretzil est un groupe de musique brésilienne jouant le style musical Forró. Opèrant principalement dans le Nord-Est de la France.
+Forró Cana Caiana est un groupe de musique brésilienne jouant le style musical Forró. Opèrant principalement dans le Nord-Est de la France.
 
 ## Le Forró
 
