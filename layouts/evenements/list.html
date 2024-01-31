@@ -26,11 +26,15 @@
 							<div>
 								{{ .Content }}
 								<ul>
-								{{ range sort .Pages "Params.Date" "desc" }}
+								{{ range sort .Pages "Params.StartDate" "desc" }}
 									<li><h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-										<div><b>Date :</b> {{ .Date | time.Format "02/01/2006"}}</div>
-										<div><b>Lieu :</b> {{ .Params.Place }}, {{ .Params.City }}</div>
-										<div><a href="{{ .Params.Facebook_event }}">Facebook event</a></div>
+										<div><b>Date :</b> {{ time.Format "02/01/2006" .Params.StartDate }}</div>
+										<div><b>Lieu :</b>
+											{{ $s :=  printf "%s, %s" .Params.Place .Params.City  }}
+											<a href="https://maps.apple.com/?q={{ urlize $s }}">
+												{{ $s }}	
+											</a>
+										</div>
 									</li>
 								{{ end }}
 								</ul>
