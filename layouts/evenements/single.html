@@ -23,7 +23,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<article itemscope itemtype="https://schema.org/Event">
+							<article itemscope itemtype="https://schema.org/DanceEvent">
 								<img src="/evenements/{{ .File.BaseFileName }}.jpeg" alt="bannière">
 								<h3 itemprop="name">{{ .Title }}</h3>
 								<div><b>Date :</b> <time datetime="{{ .Params.StartDate }}" itemprop="startDate" content="{{ .Params.StartDate }}">{{ time.Format "02/01/2006" .Params.StartDate }}</time></div>
