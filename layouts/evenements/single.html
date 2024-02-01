@@ -23,33 +23,37 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<div>
+							<article itemscope itemtype="https://schema.org/Event">
 								<img src="/evenements/{{ .File.BaseFileName }}.jpeg" alt="bannière">
-								<h3>{{ .Title }}</h3>
-								<div><b>Date :</b> {{ $start := time.AsTime .Params.StartDate }}{{ $start.Format "02/01/2006" }}</div>
-								<div><b>Horaire :</b> {{ $start := time.AsTime .Params.StartDate }}{{ $start.Format "15:04" }}
+								<h3 itemprop="name">{{ .Title }}</h3>
+								<div><b>Date :</b> <time datetime="{{ .Params.StartDate }}" itemprop="startDate" content="{{ .Params.StartDate }}">{{ time.Format "02/01/2006" .Params.StartDate }}</time></div>
+								<div><b>Horaire :</b> <time datetime="{{ .Params.StartDate }}"> {{ time.Format "15:04" .Params.StartDate }}
 								{{- with .Params.EndDate}}
-									{{ $end := time.AsTime . }}
-									− {{ $end.Format "15:04" }}
+									− <time datetime="{{ . }}" itemprop="endDate" content="{{ . }}">{{ time.Format "15:04" . }}</time>
 								{{ end -}}
 								</div>
-								<div><b>Lieu :</b>
+
+								<div itemprop="location" itemscope itemtype="https://schema.org/Place">
+									<b>Lieu :</b>
 									{{ $s :=  printf "%s, %s" .Params.Place .Params.City  }}
 									<a href="https://maps.apple.com/?q={{ urlize $s }}">
-										{{ $s }}	
+										<span itemprop="name">{{ .Params.Place }}</span>, <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"><span itemprop="addressLocality">{{ .Params.City }}</span></span>
 									</a>
 								</div>
 								{{ with .Params.Price }}
-								<div><b>Prix :</b> {{ . }}</div>
+								<div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+									<meta itemprop="priceCurrency" content="EUR">
+									<b>Prix :</b> <span itemprop="price" content="{{ . }}">{{ . }}</span></div>
 								{{ end }}
 								{{ range $socialMediaName, $socialMediaLink := .Params.Social_media }}
 								<div><a href="{{ $socialMediaLink }}">{{ $socialMediaName }}</a></div>
 								{{ end }}
+								<div itemprop="performer" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">{{ .Site.Title }}</span></div>
 								<br>
 								<div>
 									{{ .Content }}
 								</div>
-							</div>
+							</article>
 						</div>
 					</div>
 					<!-- /.row -->
