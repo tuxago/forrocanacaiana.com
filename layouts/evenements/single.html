@@ -4,6 +4,12 @@
 	<head>
 		{{ partial "headers.html" . }}
 		{{ partial "custom_headers.html" . }}
+
+		<meta property="og:image" content="/evenements/{{ .File.BaseFileName }}.jpeg">
+		<meta name="twitter:image" content="/evenements/{{ .File.BaseFileName }}.jpeg">
+		<meta itemprop="image" content="/evenements/{{ .File.BaseFileName }}.jpeg">
+
+There’s a range of other metadata that you or your blogging software should be adding too, but that’s out of scope for this post.
 	</head>
 
 	<body>
