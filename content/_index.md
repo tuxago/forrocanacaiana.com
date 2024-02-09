@@ -2,7 +2,7 @@
 title: Forró Cana Caiana - la saveur du Nordeste - bal populaire et musique trad brésilienne en Alsace
 ---
 
-![David à l'Accordéon, Marcela au Triangle et Thierry au Zabumba](cana-canaia-design.500.jpeg)
+![David à l'Accordéon, Marcela au Triangle et Thierry au Zabumba](cana-canaia-design.501.jpeg)
 
 Anciennement connu sous le nom de Forró Bretzil, le trio de forró Cana Caiana joue de la musique traditionnelle du Nordeste du Brésil - pé-de-serra comme on dit là-bas, littéralement "au pied de la montagne". 
 Ça tombe bien pour un groupe du Nord-Est...de la France, juste au pied des Vosges !
