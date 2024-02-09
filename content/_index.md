@@ -11,8 +11,7 @@ Ach soooo mais encore?  Was donc passiert ?? Envoyé par l'Education Nationale �
 
 Mais au fait c'est quoi "Cana Caiana" ? Le nom d'une variété savoureuse de canne à sucre, introduite par les Portugais au Nordeste et importée...de la Guyane française, qu'ils avaient alors brièvement occupé au début du 19ème siècle. C'est un symbole du vieux Nordeste du sucre et des plantations, de la douleur et de la joie, du métissage fondateur du Brésil, des carnavals de Recife et Olinda, des fêtes de la Saint Jean et de l'ivresse de la cachaça...Le chanteur Alceu Valença dans les années 70 en a même fait un poème:
 
-Alceu Valença - Cana Caiana (1979)
-https://www.youtube.com/watch?v=n_pBRRRjTIU
+{{< youtube id="n_pBRRRjTIU" class="youtube-embed" >}}
 
 
 C'est une grande canne à sucre, épaisse et dressée, bien rigide et violacée, généreuse en bon jus...
