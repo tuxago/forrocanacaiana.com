@@ -54,7 +54,7 @@
 								{{ range $socialMediaName, $socialMediaLink := .Params.Social_media }}
 								<div><a href="{{ $socialMediaLink }}">{{ $socialMediaName }}</a></div>
 								{{ end }}
-								<div itemprop="performer" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">{{ .Site.Title }}</span></div>
+								<div itemprop="performer" itemscope itemtype="https://schema.org/Organization"><b>Groupe :</b> <span itemprop="name">{{ .Site.Title }}</span></div>
 								<br>
 								<div>
 									{{ .Content }}
