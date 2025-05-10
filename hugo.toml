@@ -25,12 +25,22 @@ googleAnalytics = "G-R65VLKMSTY"
     weight     = 2
 
 [[menu.main]]
+    name       = "Nos nouveautés"
+    url        = "/nouveautés"
+    weight     = 3
+
+[[menu.main]]
     name       = "Photos"
     url        = "/photos"
-    weight     = 3
+    weight     = 4
 
 [[menu.main]]
     name       = "Vidéos"
     url        = "/vidéos"
-    weight     = 4
+    weight     = 5
+
+[[menu.main]]
+    name       = "Contact"
+    url        = "/contact"
+    weight     = 6
 
