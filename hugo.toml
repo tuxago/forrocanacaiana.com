@@ -9,6 +9,11 @@ logo_text: ""
 
 googleAnalytics: "G-R65VLKMSTY"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 
 params:
   style: "green"
