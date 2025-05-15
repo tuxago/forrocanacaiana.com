@@ -1,46 +1,46 @@
-baseURL = "https://forrocanacaiana.com/"
-languageCode = "fr-fr"
-defaultContentLanguage = "fr"
-title = "Forró Cana Caiana"
-theme = "hugo-universal-theme"
+baseURL: "https://forrocanacaiana.com/"
+languageCode: "fr-fr"
+defaultContentLanguage: "fr"
+title: "Forró Cana Caiana"
+theme: "hugo-universal-theme"
 
-googleAnalytics = "G-R65VLKMSTY"
+disabled_logo: true
+logo_text: ""
 
-[params]
-    style = "green"
-    author = "Forró Cana Caiana"
-    defaultKeywords = ["forró", "forro", "alsace", "strasbourg", "musique", "music", "danse", "dance", "cana", "caiana"]
-    mainSections = ["evenements"]
+googleAnalytics: "G-R65VLKMSTY"
+
+
+params:
+  style: "green"
+  author: "Forró Cana Caiana"
+  defaultKeywords: ["forró", "forro", "alsace", "strasbourg", "musique", "music", "danse", "dance", "cana", "caiana"]
+  mainSections: ["evenements"]
 
 # Main menu
-[[menu.main]]
-    name       = "Accueil"
-    identifier = "menu.home"
-    url        = "/"
-    weight     = 1
+menu:
+  main:
+    - name      : "Accueil"
+      identifier: "menu.home"
+      url       : "/"
+      weight    : 1
 
-[[menu.main]]
-    name       = "Événements"
-    url        = "/evenements"
-    weight     = 2
+    - name      : "Événements"
+      url       : "/evenements"
+      weight    : 2
 
-[[menu.main]]
-    name       = "Nos nouveautés"
-    url        = "/nouveautés"
-    weight     = 3
+    - name      : "Nos nouveautés"
+      url       : "/nouveautés"
+      weight    : 3
 
-[[menu.main]]
-    name       = "Photos"
-    url        = "/photos"
-    weight     = 4
+    - name      : "Photos"
+      url       : "/photos"
+      weight    : 4
 
-[[menu.main]]
-    name       = "Vidéos"
-    url        = "/vidéos"
-    weight     = 5
+    - name      : "Vidéos"
+      url       : "/vidéos"
+      weight    : 5
 
-[[menu.main]]
-    name       = "Contact"
-    url        = "/contact"
-    weight     = 6
+    - name      : "Contact"
+      url       : "/contact"
+      weight    : 6
 
