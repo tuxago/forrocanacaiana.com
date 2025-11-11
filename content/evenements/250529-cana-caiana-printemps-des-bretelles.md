@@ -1,7 +1,7 @@
 ---
 title: "Cana Caiana au Printemps des Bretelles 💃🇧🇷🕺"
-startDate: "2025-05-30T21:45:00+02:00"
-endDate:   "2025-05-30T22:45:00+02:00"
+startDate: "2025-05-29T21:45:00+02:00"
+endDate:   "2025-05-29T22:45:00+02:00"
 place: l'Illiade
 city: Illkirch-Graffenstaden
 price: 0€
