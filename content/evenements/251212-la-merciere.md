@@ -6,7 +6,7 @@ place: 17 rue Principale
 city:  Cosswiller
 price: 0€ (15 € pour restauration, réservation obligatoire par téléphone <a href="tel:+33679507404">06-79-50-74-04</a>)
 description:  "Soirée Tropicale à la Mercière 💃🇧🇷🕺"
-banner: "/evenements/251212.png"
+banner: "/evenements/251212-la-merciere.jpeg"
 social_media:
   facebook: https://facebook.com/events/s/soiree-tropicale-avec-cana-cai/714504461221150/
 
