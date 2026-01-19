@@ -2,7 +2,7 @@
 title: "Cana Caiana chez le Cotylédon 💃🇧🇷🕺"
 startDate: "2026-01-31T20:00:00+01:00"
 endDate:   "2026-01-31T23:00:00+01:00"
-place: 1 Rue du Maréchal Foch
+place: 1 Rue du Marechal Foch
 city: Phalsbourg
 price: 0€
 description: "Cana Caiana chez le Cotylédon 💃🇧🇷🕺"
