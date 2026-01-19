@@ -23,9 +23,9 @@ anthropologue, rejoints depuis par Thierry, figure strasbourgeoise des percussio
 brésiliennes, Cana Caiana se produit partout avec une ferveur contagieuse, qui vous
 fait sentir la saveur du Nordeste au Nord-Est.
 
-David Simbsler: chant, accordéon, cavaquinho, guitare
-Marcela Frutuoso: triangle, ganza, chœurs
-Thierry Dorez: zabumba, pandeiro, chœur
+David Simbsler: chant, accordéon, cavaquinho, guitare  
+Marcela Frutuoso: triangle, ganza, chœurs  
+Thierry Dorez: zabumba, pandeiro, chœur  
 
 ⏱️Ouverture des portes à 20:00, concert à 21:30
 💰Prix libre au chapeau pour les artistes
