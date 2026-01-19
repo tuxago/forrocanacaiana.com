@@ -12,4 +12,6 @@ facebook_site: "61562489966778"
 facebook_author: "topmoumoute"
 ---
 
-Olá todas e todos, on vous invite à un petit bal forró au pub @obrotherbarstrasbourg , 6 rue des glacières samedi prochain à 20h, vamos farrear gente !!!
+Bora gente !!! Rdv ce samedi 24 janvier pour le premier FORRO'BROTHER du mois, on a hâte de vous retrouver !
+Où @obrotherbarstrasbourg , 6 rue des glacières samedi prochain à partir de 20h
+Restauration sur place, réservation conseillée au 0682706228 ou sur Instagram @obrotherbarstrasbourg
